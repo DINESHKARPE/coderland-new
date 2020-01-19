@@ -1,0 +1,36 @@
+[{
+  "year":"2019",
+  "taxBracket":[{"percentage":"0","min":0,"max": "100000"},{"percentage":"10","min":"100001","max": "500000"},{"percentage":"20","min":"5000001","max":"1200000"},{"percentage":"30","min":"12000001"}],
+  "govBonds":"150000",
+  "cess": {
+      "percentage":"2",
+      "max": "500000"
+    },
+  "ageBenefit":{
+      "age":"60",
+      "reduced":"50000"
+    }
+},
+{
+  "year":"2020",
+  "taxBracket":[{"percentage":"0","min":0,"max": "100000"},{"percentage":"15","min":"100001","max": "900000"},{"percentage":"25","min":"900001"}],
+  "cess": {
+    "percentage":"5",
+    "max": "500000"
+  },
+  "govBonds":"200000",
+  "ageBenefit":{
+      "age":"60",
+      "reduced":"75000"
+    }
+},
+{
+  "year":"2018",
+  "taxBracket":[{"percentage":"0","min":0,"max": "100000"},{"percentage":"10","min":"100001","max": "500000"},{"percentage":"20","min":"500001","max":"100000"},{"percentage":"30","min":"1000001"}],
+  "cess": {
+    "percentage":"1",
+    "max": "500000"
+  },
+  "govBonds":"100000"
+}
+]
