@@ -8,13 +8,13 @@ class UserIncome internal constructor( val year: Int,  val age: Int, val  annumI
 
         ageBenefit?.let {
             if (age >= ageBenefit.age) {
-                return (annumIncome - ageBenefit.reduced) - compareInvestmentWithGovBonds(govBonds)
+                return (annumIncome - ageBenefit.reduced) - compareInvestmentWithGovtBonds(govBonds)
             }
         }
-        return annumIncome - compareInvestmentWithGovBonds(govBonds)
+        return annumIncome - compareInvestmentWithGovtBonds(govBonds)
     }
 
-    private fun compareInvestmentWithGovBonds(govBonds: Double): Double {
+    private fun compareInvestmentWithGovtBonds(govBonds: Double): Double {
 
         return if(investment > govBonds){
             govBonds
